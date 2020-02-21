@@ -14,18 +14,18 @@ Que hice para estar aca escribiendo sobre mi experiencia? Empezar a trabajar de 
 
 ## Sobre vos
 
-Que podes esperar vos de este blog? Teniendo en cuenta lo que describi anteriormente, por favor, no mucho. Si se diera el milagro de que decida seguir escribiendo - y que encuentre el tiempo para tal fin - en este sitio quiero volcar todo lo que vengo aprendiendo. No necesariamente tutoriales de JS, sino cosas mas generales, que son comunes a nuestra profesion de devs y a nuestra condicion de seres humanos. No digo que nunca publicare alguna cosa interesante que descubra sobre una tecnologia puntual, pero no sera la media.
+Que podes esperar vos de este blog? Teniendo en cuenta lo que describi anteriormente, por favor, no mucho. Si se diera el milagro de que decida seguir escribiendo, en este sitio quiero volcar todo lo que vengo aprendiendo. No necesariamente tutoriales de JS, sino cosas mas generales, que son comunes a nuestra profesion de devs y a nuestra condicion de seres humanos. No digo que nunca publicare alguna cosa interesante que descubra sobre una tecnologia puntual, pero no sera la media.
 
 Quiero asegurarte, querido internauta, que sos muy importante en este sitio. Que curiosidades tenes, cuales compartimos? Sobre que te gustaria leer?
 
-## De donde vengo
+## Origenes
 
-Bueno, pero dediquemonos un poco al titulo: de donde vengo? En donde estoy ahora? Vengo de una mezcla del salon de clases y los bootcamp de 40 horas de Udemy. Vengo de un par de proyectos interesantes, armados con cinta adhesiva, que tengo ganas de seguir y mejorar. Vengo de busquedas laborales poco serias. No es un mal lugar donde empezar, no?
+Vengo de una mezcla de los salones de la facultad, y de un Bootcamp de Udemy de desarrollo web. Con esa mezcla de cinta adhesiva y lineas de codigo, me fui armando mis proyectitos, mis desarrollos de juguete. De esos programitas me gusta hablar, de todo lo que voy aprendiendo despues de horas de StackOverflow y rascarme la cabeza. No es un mal lugar donde empezar.
 
-## A donde voy
+## Camino
 
-Quien sabe? Me gustan demasiadas cosas para tener un camino muy definido. Ahora, estoy apuntando a conseguir entrevistas en empresas que me interesen en Buenos Aires, mientras sigo con esto, y le dedico sus buenas horas semanales a algunos hobbies que peco de dejar tirados de vez en cuando.
+Quien sabe? Creo que no soy el unico al que le pasa que le gusten demasiadas cosas como para tener un camino definido, mas que nada habiendo tantas cosas que ignoro. Ahora, estoy apuntando a conseguir entrevistas en empresas que me interesen en Buenos Aires, mientras sigo con esto, y le dedico un poco de tiempo a hobbies que admito haber dejado tirados un poco. Solo un poquito
 
 ---
 
-Los convenci de quedarse? Estan interesados en compartir las peripecias de un desarrollador trainee/junior buscando trabajo en Argentina? Quedense, pues no puedo prometerles cuando, ni como, pero nuevas publicaciones van a llegar.
+Te convenci de quedarte? Quizas no sea la publicacion mas regular del mundo, pero prometo que algo mas llegara. Si estas interesado, mientras tanto, podes seguirme en mis diversas redes mas abajo. Muchas gracias, y hasta la proxima!

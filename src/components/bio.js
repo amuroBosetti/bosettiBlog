@@ -8,6 +8,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 import { rhythm } from "../utils/typography"
 
@@ -16,7 +19,7 @@ const Bio = () => {
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 150, height: 100) {
+          fixed(width: 50, height: 50) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -32,34 +35,55 @@ const Bio = () => {
     }
   `)
 
+  const iconStyle = {
+    color:"black",
+    boxShadow:"none",
+  }
+
   const { author, social } = data.site.siteMetadata
   return (
-    <div
-      style={{
-        display: `flex`,
-        marginBottom: rhythm(2.5),
-      }}
-    >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
+    <div>
+      <div
         style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
+          display: `flex`,
+          marginBottom: rhythm(0),
         }}
-        imgStyle={{
-          borderRadius: `50%`,
+      >
+        <Image
+          fixed={data.avatar.childImageSharp.fixed}
+          alt={author}
+          style={{
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            minWidth: 50,
+            borderRadius: `100%`,
+          }}
+          imgStyle={{
+            borderRadius: `50%`,
+          }}
+        />
+        <p>
+          ¡Hola! Soy <strong>{author}</strong>, desarrollador junior argentino.
+          {` `}
+          <a href={`https://twitter.com/${social.twitter}`}>
+            ¿Y si me seguís en Twitter?
+          </a>
+        </p>
+      </div>
+      <div
+        style={{
+          display: 'flex',
+          marginBottom: rhythm(1),
         }}
-      />
+      >
       <p>
-        ¡Hola! Soy <strong>{author}</strong>, desarrollador junior argentino.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          ¿Y si me seguís en Twitter?
+        <a
+          style={iconStyle}
+          href='https://github.com/amuroBosetti'>
+            <FontAwesomeIcon icon={ faGithub } />
         </a>
       </p>
+      </div>
     </div>
   )
 }
