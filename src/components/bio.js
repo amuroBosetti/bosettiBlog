@@ -8,6 +8,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import styled from 'styled-components'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -35,10 +36,13 @@ const Bio = () => {
     }
   `)
 
-  const iconStyle = {
-    color:"black",
-    boxShadow:"none",
-  }
+  const Icon = styled.a`
+    color: black;
+    box-shadow: none;
+    :hover {
+      color: #7e2699;
+    }
+  `
 
   const { author, social } = data.site.siteMetadata
   return (
@@ -77,11 +81,10 @@ const Bio = () => {
         }}
       >
       <p>
-        <a
-          style={iconStyle}
+        <Icon
           href='https://github.com/amuroBosetti'>
             <FontAwesomeIcon icon={ faGithub } />
-        </a>
+        </Icon>
       </p>
       </div>
     </div>
