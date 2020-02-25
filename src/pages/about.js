@@ -36,13 +36,15 @@ const AboutPage = ({ data, location }) => {
       Tambien me gusta jugar juegos de rol - y pintar piezas para estos-, leer y viajar. Muchos de estos intereses van a aparecer en este blog sin planificarlo, simplemente
       porque me gusta y disfruto compartirlo. Intentare mantener las cosas lo mas on topic que pueda, lo prometo...</p>
       <Image
+        title='Yo, disfrutando de unos deliciosos tacos en La Terraza'
         fixed={data.avatar.childImageSharp.fixed}
         alt="Yo, disfrutando de unos deliciosos tacos en La Terraza"
         style={{
-          position: "flex",
+          float: "left",
+          marginRight:rhythm(0.5)
         }}
       />
-      <p>¿Que cosas hice? Estoy estudiando Licenciatura en Informatica, mientras sigo desarrollando por mi parte y buscando un buen trabajo en el area. Previo a este blog,
+      <p> ¿Que cosas hice? Estoy estudiando Licenciatura en Informatica, mientras sigo desarrollando por mi parte y buscando un buen trabajo en el area. Previo a este blog,
       hice un Bootcamp de desarrollo web, ademas de algunos pogramitas de juguete para ir aprendiendo.</p>
       <p>Te invito a mandarme dudas, ideas, puteos y todo lo que quieras por Twitter, y ver que hago en mis varias redes / plataformas / sitios web donde uno se hace una cuenta.</p>
       <p>
