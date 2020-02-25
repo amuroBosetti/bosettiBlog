@@ -9,7 +9,8 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 import styled from 'styled-components'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
@@ -39,8 +40,10 @@ const Bio = () => {
   const Icon = styled.a`
     color: black;
     box-shadow: none;
+    margin: 0.5em;
+    font-size: 1.5em;
     :hover {
-      color: #7e2699;
+      color: #ff8800;
     }
   `
 
@@ -67,7 +70,7 @@ const Bio = () => {
           }}
         />
         <p>
-          ¡Hola! Soy <strong>{author}</strong>, desarrollador junior argentino.
+          ¡Hola! Soy <a href="/about"><strong>{author}</strong></a>, desarrollador junior argentino.
           {` `}
           <a href={`https://twitter.com/${social.twitter}`}>
             ¿Y si me seguís en Twitter?
@@ -85,6 +88,15 @@ const Bio = () => {
           href='https://github.com/amuroBosetti'>
             <FontAwesomeIcon icon={ faGithub } />
         </Icon>
+        <Icon
+          href='https://www.linkedin.com/in/mauro-bosetti/'>
+            <FontAwesomeIcon icon={ faLinkedin } />
+        </Icon>
+        <Icon
+          href='mailto:amuro.bosetti@gmail.com'>
+            <FontAwesomeIcon icon={ faEnvelope } />
+        </Icon>
+
       </p>
       </div>
     </div>
