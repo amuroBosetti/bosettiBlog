@@ -1,5 +1,5 @@
 ---
-title: Desarrollo de juguete - De donde vengo y hacia donde voy (espero)
+title: "Desarrollo de juguete - De donde vengo y hacia donde voy (espero)"
 date: "2020-02-20T11:55:03.284Z"
 description: "Una introduccion a este sitio y a lo que pueden esperar de el. ¿Quien soy yo, y que busco con este blog?"
 ---
