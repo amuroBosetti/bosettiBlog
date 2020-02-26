@@ -47,7 +47,12 @@ const AboutPage = ({ data, location }) => {
       <p> ¿Que cosas hice? Estoy estudiando Licenciatura en Informatica, mientras sigo desarrollando por mi parte y buscando un buen trabajo en el area. Previo a este blog,
       hice un Bootcamp de desarrollo web, ademas de algunos pogramitas de juguete para ir aprendiendo.</p>
       <p>Te invito a mandarme dudas, ideas, puteos y todo lo que quieras por Twitter, y ver que hago en mis varias redes / plataformas / sitios web donde uno se hace una cuenta.</p>
-      <p>
+      <hr></hr>
+      <p>Favicon creado por <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">
+      DinosoftLabs</a> en <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+
+      <hr></hr>
+      <div>
         <Icon
           href="https://twitter.com/itsamuro">
             <FontAwesomeIcon icon={ faTwitter }/>
@@ -65,7 +70,7 @@ const AboutPage = ({ data, location }) => {
             <FontAwesomeIcon icon={ faEnvelope } />
         </Icon>
 
-      </p>
+      </div>
     </Layout>
   )
 }
