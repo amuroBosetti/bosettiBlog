@@ -16,6 +16,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { rhythm } from "../utils/typography"
 
+const Icon = styled.a`
+  color: black;
+  box-shadow: none;
+  margin: 0.5em;
+  font-size: 1.5em;
+  :hover {
+    color: #ff8800;
+  }
+`
+
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
@@ -36,16 +46,6 @@ const Bio = () => {
       }
     }
   `)
-
-  const Icon = styled.a`
-    color: black;
-    box-shadow: none;
-    margin: 0.5em;
-    font-size: 1.5em;
-    :hover {
-      color: #ff8800;
-    }
-  `
 
   const { author, social } = data.site.siteMetadata
   return (
