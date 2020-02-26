@@ -12,6 +12,11 @@ gatsby develop
 ```
 The site is now running at ``http://localhost:8000``. You can also test queries at ``http://localhost:8000/___.graphql``.
 
+**NOTE:** for this to work, you'll need to install [NodeJS](https://nodejs.org) and GatsbyJS:
+ ```
+ npm install -g gatsby-cli
+ ```
+
 ## Structure
 GatsbyJS is a framework based on React which pulls data from different sources (in this case, my .md files). This files are located in the `/content` folder.
 
