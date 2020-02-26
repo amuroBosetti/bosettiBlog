@@ -1,6 +1,7 @@
 <h1 align="center">
   Welcome to my blog!
 </h1>
+
 I made this website with **GatsbyJS**, using the [starter blog](https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-blog/) as a base.
 
 ## Testing
