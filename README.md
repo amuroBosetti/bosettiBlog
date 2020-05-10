@@ -22,5 +22,3 @@ GatsbyJS is a framework based on React which pulls data from different sources (
 
 ### About the developer
 Hey! I'm Mauro Bosetti, Argentinian fullstack developer. You can find out more about what I do on my GitHub or [Codepen](https://codepen.io/amurobosetti) and get in touch via [Twitter](https://twitter.com/itsamuro) / [LinkedIn](https://www.linkedin.com/in/mauro-bosetti/)
-
-```psst... the developer is looking for a good job in Buenos Aires ;)```
